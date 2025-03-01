@@ -1,0 +1,21 @@
+.container {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: #34383c; /* Change to any color you like */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  
+  .container:hover .name {
+    color: #0056b3;
+    transition: color 0.3s ease-in-out;
+  }
+  
